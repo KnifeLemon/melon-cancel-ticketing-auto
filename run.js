@@ -2,6 +2,17 @@ var iframe = $('#oneStopFrame');
 var disableColor = "#DDD";
 var refreshTimer, findTimer;
 
+// 프레임 로드때마다 alert 제어
+iframe.on('load', function() {
+	window.alert = alertController;
+	iframe[0].contentWindow.window.alert = alertController;
+	
+	function alertController(text) {
+		console.log('Alert Say : ' + text);
+		return true;
+	}
+});
+
 async function sortSeatList() {
     // 좌석 객체
     function getRectsAsync() {
