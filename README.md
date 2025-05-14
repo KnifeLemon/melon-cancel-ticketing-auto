@@ -1,3 +1,7 @@
+### 🔍 다른 예매처
+- [인터파크 취켓팅 자동화 스크립트](https://github.com/KnifeLemon/interpark-cancel-ticketing-auto)
+
+---
 # 멜론 취켓팅 자동화 스크립트
 
 멜론 티켓의 취켓팅을 자동화 하는 스크립트입니다.
@@ -38,6 +42,3 @@ https://github.com/user-attachments/assets/fbd86130-d48d-4a87-9df0-de42107d22d4
 ## 안내 사항
 - 실행 후 창을 내려 다른 작업을 하셔도 됩니다.
 - 상업적 이용시 문제에 대해 책임은 본인에게 있습니다.
-
-## 다른 예매처
-- [🚶‍♂️ 인터파크 취켓팅 자동화 스크립트](https://github.com/KnifeLemon/interpark-cancel-ticketing-auto)
